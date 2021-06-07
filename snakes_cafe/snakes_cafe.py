@@ -1,4 +1,5 @@
 
+# Refactor print statements
 print("*"*38)
 print("""**    Welcome to the Snakes Cafe    **
 **    Please see our menu below.    **
@@ -63,3 +64,4 @@ while True:
         menu_items[response] += 1
         order_count = menu_items[response]
         print(f"** {order_count} order of {response} have been added to your meal **")
+
